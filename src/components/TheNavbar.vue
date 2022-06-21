@@ -5,17 +5,8 @@
     </div>
     <div class="container-nav d-flex justify-content-center">
       <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">characters</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+        <li class="nav-item" v-for="(link,i) in navLinks" :key="i">
+          <a class="nav-link" :href="link.href">{{link.name}}</a>
         </li>
       </ul>
     </div>
@@ -26,7 +17,54 @@
 
 export default {
   name: "TheNavabar",
-}
+  data() {
+    return {
+      navLinks: [
+        {
+          name: "Characters",
+          href: "#",
+        },
+        {
+          name: "Comics",
+          href: "#",
+        },
+        {
+          name: "Movies",
+          href: "#",
+        },
+        {
+          name: "TV",
+          href: "#",
+        },
+        {
+          name: "Games",
+          href: "#",
+        },
+        {
+          name: "Collectibles",
+          href: "#",
+        },
+        {
+          name: "Videos",
+          href: "#",
+        },
+        {
+          name: "Fans",
+          href: "#",
+        },
+        {
+          name: "New",
+          href: "#",
+        },
+        {
+          name: "Shop",
+          href: "#",
+        },
+      ]
+
+    }
+  },
+};
 </script>
 
 <style lang="scss">
