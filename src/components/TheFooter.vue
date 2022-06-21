@@ -3,10 +3,6 @@
 
         <footer class="img-bg">
             <div class="container">
-                <!-- <div class="container-img-bg">
-                    <img src="/img/footer-bg.jpg" alt="" class="sfondo-img w-100 p-0">
-                </div> -->
-
                 <div class="row">
                     <div class="col-2 text-white py-5">
                         <h5>DC COMICS</h5>
@@ -104,11 +100,11 @@ export default {
     margin-top: 60px;
 }
 
-.img-bg{
+.img-bg {
     background-image: url("/public/img/footer-bg.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
- 
+
 }
 </style>

@@ -1,9 +1,10 @@
 <template>
   <div>
 
-    <div class="container-nav d-flex justify-content-end align-items-center ">
+    <div class="container-nav d-flex justify-content-start">
+      <div class="flex-grow-1"><img src="/img/dc-logo.png" alt=""></div>
       <ul class="nav">
-        <li class="nav-item"><img src="/img/dc-logo.png" alt="" class=""></li>
+        <!-- <li class="nav-item flex-grow-1"><img src="/img/dc-logo.png" alt=""></li> -->
         <li class="nav-item" v-for="(link, i) in navLinks" :key="i">
           <a class="nav-link" :href="link.href">{{ link.name }}</a>
         </li>
