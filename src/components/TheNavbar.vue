@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div class="container-logo">
-      <img src="/img/dc-logo.png" alt="">
-    </div>
-    <div class="container-nav d-flex justify-content-center">
+
+    <div class="container-nav d-flex justify-content-end align-items-center ">
       <ul class="nav">
-        <li class="nav-item" v-for="(link,i) in navLinks" :key="i">
-          <a class="nav-link" :href="link.href">{{link.name}}</a>
+        <li class="nav-item"><img src="/img/dc-logo.png" alt="" class=""></li>
+        <li class="nav-item" v-for="(link, i) in navLinks" :key="i">
+          <a class="nav-link" :href="link.href">{{ link.name }}</a>
         </li>
       </ul>
     </div>
+
   </div>
 </template>
 
