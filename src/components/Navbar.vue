@@ -1,15 +1,19 @@
 <template>
   <div>
-    <h1>{{message}}</h1>
+    
   </div>
 </template>
 
 <script>
+import Navbar from `./components/Navbar.vue`
+import BannerBlue from `./components/BannerBlue.vue`
+import Footer from `./components/Footer.vue`
+import BannerSignUp from `./components/BannerSignUp.vue`
 export default {
   data(){
     return{
-      message: 'Navabar',
-    },
+      components : {Navbar,BannerBlue,Footer,BannerSignUp}
+    }
   }
 }
 </script>
