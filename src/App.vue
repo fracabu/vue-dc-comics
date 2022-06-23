@@ -1,31 +1,35 @@
 <template>
   <div id="App">
     <TheNavbar></TheNavbar>
-    <TheMain></TheMain>
-    <ListaFumetti></ListaFumetti>
-    <FumettiCard></FumettiCard>
+
+    <main>
+      <div class="container-fumetti bg-danger">
+        contenuto della pagina
+        <ProductsList></ProductsList>
+      </div>
+    </main>
+
     <TheBannerBlue></TheBannerBlue>
     <TheFooter></TheFooter>
     <TheBannerSignUp></TheBannerSignUp>
-    
+
   </div>
 </template>
 
 
 <script>
 import TheNavbar from "./components/TheNavbar.vue"
-import TheMain from "./components/TheMain.vue"
 import TheBannerBlue from "./components/TheBannerBlue.vue"
 import TheFooter from "./components/TheFooter.vue"
 import TheBannerSignUp from "./components/TheBannerSignUp.vue"
-import ListaFumetti from "./components/ListaFumetti.vue"
-import FumettiCard from "./components/FumettiCard.vue"
+import ProductsList from "./components/ProductsList.vue"
+
 
 
 
 export default {
   name: "App",
-  components: { TheNavbar, TheMain, TheBannerBlue, TheFooter, TheBannerSignUp, ListaFumetti, FumettiCard },
+  components: { TheNavbar, TheBannerBlue, TheFooter, TheBannerSignUp, ProductsList },
 }
 </script>
 
