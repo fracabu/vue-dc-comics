@@ -2,9 +2,12 @@
   <div id="App">
     <TheNavbar></TheNavbar>
 
+
     <main>
-      <div class="container-fumetti bg-danger">
-        contenuto della pagina
+      <div class="jumbo-container">
+
+      </div>
+      <div class="container-fumetti py-5">
         <ProductsList></ProductsList>
       </div>
     </main>
@@ -42,5 +45,20 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.jumbo-container {
+  background-image: url("/public/img/jumbotron.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+.container-fumetti {
+  background-color: #1C1C1C;
+  padding-left: 150px;
+  padding-right: 150px;
+  
 }
 </style>

@@ -1,7 +1,9 @@
 <template>
-    <div class="card">
-        <img :src="imgUrl" :alt="`immagine del fumetto ${cardTitle}`">
-        <div class="card-body">
+    <div class="card border-0">
+        <div class="img-box ratio ratio-1x1">
+            <img :src="imgUrl" :alt="`immagine del fumetto ${cardTitle}`">
+        </div>
+        <div class="card-body text-white text-uppercase">
             {{ cardTitle }}
         </div>
 
@@ -25,4 +27,20 @@ export default {
 
 
 <style>
+.card{
+    
+}
+
+.card-body {
+    background-color: #1C1C1C;
+    border:1px solid #1C1C1C;
+
+
+}
+
+.img-box {
+    width: 100%;
+    overflow: hidden;
+
+}
 </style>
