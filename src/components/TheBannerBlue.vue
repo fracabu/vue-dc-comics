@@ -1,25 +1,24 @@
 <template>
     <div>
-        <div class="row align-items-center banner">
-            <div class="col"></div>
+        <div class="row align-items-center banner px-5">
             <div class="col">
                 <img src="/img/buy-comics-digital-comics.png" alt="" class="icons">
-                <span class="text-white">DIGITAL COMICS</span> 
+                <span class="text-white">DIGITAL COMICS</span>
             </div>
             <div class="col">
                 <img src="/img/buy-comics-merchandise.png" alt="" class="icons text-white">
                 <span class="text-white">DIGITAL COMICS</span>
             </div>
             <div class="col">
-                <img src="/img/buy-comics-subscriptions.png" alt="" class="icons" >
+                <img src="/img/buy-comics-subscriptions.png" alt="" class="icons">
                 <span class="text-white">DIGITAL COMICS</span>
             </div>
             <div class="col">
-                <img src="/img/buy-comics-shop-locator.png" alt="" class="icons" >
+                <img src="/img/buy-comics-shop-locator.png" alt="" class="icons">
                 <span class="text-white">DIGITAL COMICS</span>
             </div>
             <div class="col">
-                <img src="/img/buy-dc-power-visa.svg" alt="" class="icons" >
+                <img src="/img/buy-dc-power-visa.svg" alt="" class="icons">
                 <span class="text-white">DIGITAL COMICS</span>
             </div>
         </div>
@@ -43,13 +42,13 @@ export default {
     margin-top: 60px;
 }
 
-.icons{
+.icons {
     width: 40px;
     height: 50px;
     margin-right: 1.3rem;
 }
 
-.banner{
+.banner {
     min-height: 150px;
     background-color: #0282F9;
 }
