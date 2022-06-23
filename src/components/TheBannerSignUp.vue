@@ -4,6 +4,7 @@
             <div class="box-signup py-2">
                 <span class="text-white text-uppercase fw-bold px-2">sign up-now!</span>
             </div>
+            <div class="box-followup"></div>
         </div>
     </div>
 </template>
@@ -30,7 +31,7 @@ export default {
 }
 
 .box-signup {
-    border: 2px solid #0282F9;
+    border: 3px solid #0282F9;
     margin-left: 120px;
     
 }
