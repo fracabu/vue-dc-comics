@@ -9,7 +9,12 @@
       </div>
       <div class="container-fumetti py-5">
         <ProductsList></ProductsList>
+        <div class="load-more-container d-flex justify-content-center ">
+          <div class="btn-load-more text-white fw-bold py-2 px-5 mb-2 ">LOAD MORE</div>
+        </div>
       </div>
+
+
     </main>
 
     <TheBannerBlue></TheBannerBlue>
@@ -59,6 +64,10 @@ export default {
   background-color: #1C1C1C;
   padding-left: 150px;
   padding-right: 150px;
-  
+
+}
+
+.btn-load-more{
+  background-color: #0282F9;
 }
 </style>
