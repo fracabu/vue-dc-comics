@@ -1,20 +1,26 @@
 <template>
     <div class="card">
-        titolo
-        contenuto
-        immagine
+        <img :src="imgUrl" :alt="`immagine del fumetto ${cardTitle}`">
+        <div class="card-body">
+            {{ cardTitle }}
+        </div>
 
     </div>
 </template>
 
 <script>
-export default{
-    data(){
-        return{
+export default {
+    props: {
+        imgUrl: String,
+        cardTitle: String
+
+    },
+    data() {
+        return {
 
         }
-    }
-}
+    },
+};
 </script>
 
 

@@ -4,7 +4,10 @@
 
         <div class="row row-cols-6">
             <div class="col" v-for="product in products" :key="product.series">
-                <ProductCard ></ProductCard>
+                <ProductCard 
+                :card-title="product.series" 
+                :imgUrl = "product.thumb" >
+                </ProductCard>
             </div>
         </div>
     </div>
