@@ -26,16 +26,28 @@ export default {
 </script>
 
 
-<style>
-.card{
-    
-}
+<style lang="scss" scoped>
+
 
 .card-body {
     background-color: #1C1C1C;
     border:1px solid #1C1C1C;
     font-size: 13px;
 
+.card{
+    &:hover{
+        .card-overlay:{
+            opacity: 1;
+        }
+        .card-overlay{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+    }
+}
 
 }
 
