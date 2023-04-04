@@ -59,30 +59,30 @@ export default {
                 "News",
             ],
             shopLinks: [
-                "links",
-                "links",
+                "Characters",
+                "Characters",
             ],
 
             dcLinks: [
-                "links",
-                "links",
-                "links",
-                "links",
-                "links",
-                "links",
-                "links",
-                "links",
-                "links",
-                "links",
-                "links",
+                "Characters",
+                "Characters",
+                "Characters",
+                "Characters",
+                "Characters",
+                "Characters",
+                "Characters",
+                "Characters",
+                "Characters",
+                "Characters",
+                "Characters",
             ],
 
             sitesLinks: [
-                "links",
-                "links",
-                "links",
-                "links",
-                "links",
+                "Characters",
+                "Characters",
+                "Characters",
+                "Characters",
+                "Characters",
             ]
         }
 
